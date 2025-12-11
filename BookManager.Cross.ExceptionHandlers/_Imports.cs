@@ -1,0 +1,11 @@
+﻿global using BookManager.Cross.Entities.Exceptions;
+global using BookManager.Cross.Entities.Interfaces;
+global using BookManager.Cross.Entities.ValueObjects;
+global using BookManager.Cross.ExceptionHandlers.Implements;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.AspNetCore.Diagnostics;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Hosting;
+global using System.Reflection;
+global using System.Text.Json;

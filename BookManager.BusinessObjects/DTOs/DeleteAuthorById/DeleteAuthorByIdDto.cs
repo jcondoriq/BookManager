@@ -1,0 +1,10 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BookManager.BusinessObjects.DTOs.DeleteAuthorById
+{
+    public record struct DeleteAuthorByIdDto(Guid authorId);
+}

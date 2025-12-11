@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BookManager.Controllers\BookManager.Controllers.csproj" />
+		<ProjectReference Include="..\BookManager.Cross.Entities\BookManager.Cross.Entities.csproj" />
+		<ProjectReference Include="..\BookManager.Cross.ExceptionHandlers\BookManager.Cross.ExceptionHandlers.csproj" />
+		<ProjectReference Include="..\BookManager.ExternalServices\BookManager.ExternalServices.csproj" />
+		<ProjectReference Include="..\BookManager.Presenters\BookManager.Presenters.csproj" />
+		<ProjectReference Include="..\BookManager.Repositories.EFCore\BookManager.Repositories.EFCore.csproj" />
+		<ProjectReference Include="..\BookManager.UseCases\BookManager.UseCases.csproj" />
+		<ProjectReference Include="..\BookManager.Validators\BookManager.Validators.csproj" />
+	</ItemGroup>	
+	
+</Project>

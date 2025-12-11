@@ -1,0 +1,169 @@
+# Archivos y directorios de Visual Studio
+.vs/
+.vscode/
+**/bin/
+**/obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+
+# Archivos de proyecto y solución
+*.sln
+*.xproj
+*.xproj.user
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Directorios de salida
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Xx]64/
+**/[Xx]86/
+**/[Bb]uild/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+
+# Configuraciones específicas de entorno
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Archivos de base de datos local
+*.db
+*.db-*
+
+# Archivos de Visual Studio temporales
+*_i.c
+*_p.c
+*_h.h
+*.meta
+*.idb
+*.vcxproj
+*.vcxproj.filters
+*.opt
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Archivos de pruebas
+*.testsettings
+*.trx
+
+# Archivos de NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Archivos de Docker
+.dockerignore
+**/.DS_Store
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.*.yml
+
+# Directorios de Docker
+**/docker/data/
+**/docker/volumes/
+
+# Archivos de entorno de Docker
+.env
+.env.local
+.env.development
+.env.production
+
+# Archivos de publicación y deploy
+**/[Pp]ublish/
+**/[Dd]eploy/
+**/[Rr]elease/
+**/PublishProfiles/
+
+# Logs
+**/logs/
+**/log/
+**.log
+
+# Herramientas de desarrollo
+**/node_modules/
+**/wwwroot/lib/
+
+# Archivos de caché y temporales
+**/[Tt]emp/
+**/*.tmp
+**/*.bak
+**/*.swp
+*$RECYCLE.BIN/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de seguridad y credenciales
+**/*.pfx
+**/*.key
+**/*.pem
+**/*.cert
+
+# Archivos de Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos específicos de .NET
+**/launchSettings.json
+**/Properties/launchSettings.json
+
+# Carpetas de migración (opcional, dependiendo de si quieres versionar migraciones)
+**/[Mm]igrations/
+
+# Archivos de cobertura de código
+*.coverage
+*.coveragexml
+
+# Herramientas de análisis de código
+StyleCopReport.xml
+
+# Archivos generados por rider
+**/.idea/
+
+# Resultado de pruebas
+TestResults/
+
+# Archivos generados por publish profiles
+PublishProfiles/
+
+# Dependencias de frontend
+**/node_modules/
+**/.next/
+**/.nuxt/
+**/dist/
+
+# Archivos de caché de Rider y otros IDEs
+**/*.sln.iml
+**/*.DotSettings.user
+
+# Archivos de perfil de rendimiento
+**/*.psess
+**/*.vsp
+**/*.vspx
+**/*.sap

@@ -1,0 +1,9 @@
+﻿global using BookManager.Cross.Entities.Exceptions;
+global using BookManager.Cross.Entities.Interfaces;
+global using BookManager.Cross.Entities.Services;
+global using BookManager.Cross.Entities.ValueObjects;
+//global using Microsoft.Extensions.Configuration;
+//global using Microsoft.Extensions.DependencyInjection;
+//global using Microsoft.Extensions.Logging;
+global using System.Linq.Expressions;
+global using System.Transactions;
